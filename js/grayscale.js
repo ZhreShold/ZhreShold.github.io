@@ -47,6 +47,11 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+// make all images responsive
+$(function() {
+	$("img").addClass("img-responsive");
+});
+
 // Google Maps Scripts
 // When the window has finished loading create our google map below
 //google.maps.event.addDomListener(window, 'load', init);
