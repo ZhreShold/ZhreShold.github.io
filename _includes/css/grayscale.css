@@ -137,7 +137,6 @@ a:focus {
 
 .intro {
     display: table;
-    width: 100%;
     height: auto;
     padding: 100px 0;
     text-align: center;
@@ -257,7 +256,6 @@ a:focus {
 }
 
 .download-section {
-    width: 100%;
     padding: 50px 0;
     color: #fff;
     background: url({{ "/img/downloads-bg.jpg" | prepend: site.baseurl}}) no-repeat center center scroll;
@@ -392,7 +390,6 @@ hr.small {
 }
 
 .about-section{
-    width: 100%;
     padding: 50px 0;
     color: #fff;
     background: url({{ "/img/contact-bg.jpg" | prepend: site.baseurl}}) no-repeat center center scroll;
