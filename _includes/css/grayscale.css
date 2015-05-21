@@ -138,7 +138,6 @@ a:focus {
 .intro {
     display: table;
 	width: 100%;
-	overflow-x:hidden;
     height: auto;
     padding: 100px 0;
     text-align: center;
@@ -393,7 +392,6 @@ hr.small {
 
 .about-section{
 	width: 100%;
-	overflow-x:hidden;
     padding: 50px 0;
     color: #fff;
     background: url({{ "/img/contact-bg.jpg" | prepend: site.baseurl}}) no-repeat center center scroll;
