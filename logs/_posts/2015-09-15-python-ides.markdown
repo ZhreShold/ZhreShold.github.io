@@ -22,7 +22,7 @@ Not powerful enough, but at least good start.
 
 Sublime Text is a sophisticated text editor for code, markup and prose. It is somehow designed to be more than a text editor, but a light-weight IDE instead.
 
-![Sublime]({{"/img/post_image/2015-09-15-python-ides/sublime-text-2.png" | prepend: site.baseurl}})
+![Sublime]({{"/img/post_image/2015-09-15-python-ides/sublime-text.png" | prepend: site.baseurl}})
 
 ## Vim/Emacs
 
