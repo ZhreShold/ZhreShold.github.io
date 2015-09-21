@@ -395,7 +395,7 @@ hr.small {
 	width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url({{ "/img/contact-bg.jpg" | prepend: site.baseurl}}) no-repeat center center scroll;
+    background: url({{ "/img/about-bg.jpg" | prepend: site.baseurl}}) no-repeat center center scroll;
     background-color: #393939;
     -webkit-background-size: cover;
     -moz-background-size: cover;

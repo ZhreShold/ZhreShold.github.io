@@ -1,10 +1,31 @@
 ---
 layout:     post
-title:      "The dreams of yesterday are the hopes of today and the reality of tomorrow."
-date:       2014-07-01 12:00:00
-author:     "Start Bootstrap"
-header-img: "img/post-bg-02.jpg"
+title:      "Z's C++ coding style"
+subtitle:   "The consistency rules them all."
+date:       2015-05-23 23:23:00
+author:     "Joshua Zhang"
+header-img: "img/post-bg-01.jpg"
 ---
+
+<p>Admit it or not, C++ is still the main development language used by many companies and researchers. Powerful features and versatility come at the expense of problematic complexity. The goal of this post is to keep track of my personal favourite C++ coding styles and make it consistent cross every project as much as possible.</p>
+
+<h1>Before you go</h1>
+<p>I basically followed two guides with slight deviations, one is from <a target="_blank" href="https://google-styleguide.googlecode.com/svn/trunk/cppguide.html">Google</a>, another from <a target="_blank" href="http://geosoft.no/development/cppstyle.html">Geotechnical software</a>.</p>
+<p>This is not a tutorial, and it will not cover every bit of C++, which is a tedious and impossible work. I just write down the part I think necessary and worth taking notes. Take it easy and go.</p>
+
+<h2>Exceptions</h2>
+<p>Note that <b>any</b> convention listed can be violated if there is a reason to do so.
+<ul>
+<li>Editing codes created by others, stick to the original style.</li>
+<li>Some times if stick to a certain style is inappropriate, just do it the right way.</li>
+<li>If you have strong personal objectness, follow your heart.</li>
+</ul>
+</p>
+
+<p>Now, let's start by mimicking the steps into a small project.</p>
+
+<h1>Naming Conventions</h1>
+<h3>1. </h3>
 
 <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
 
