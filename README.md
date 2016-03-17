@@ -1,11 +1,7 @@
 ZhreShold page
 =========================
 
-TODO:
-
-- disqus(may be)
-
-- google analysis
+Powered by | Github pages | Jekyll | Disqus | Google Analysis | Bootstrap |
 
 =========
-For more details, read the [documentation](http://jekyllrb.com/)
+For more details, read the Jekyll [documentation](http://jekyllrb.com/)

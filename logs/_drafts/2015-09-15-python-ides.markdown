@@ -5,6 +5,7 @@ subtitle:   "Make coding in python a bit more cheerful with proper IDE"
 date:       2015-09-15 22:15:23
 author:     "Joshua Zhang"
 header-img: "img/post-bg-01.jpg"
+disqus:     true
 ---
 
 Though you can always write python scripts using plain text editor, it would never be a pleasant journey except for tiny projects.
@@ -26,9 +27,9 @@ Sublime Text is a sophisticated text editor for code, markup and prose. It is so
 
 ## Vim/Emacs
 
-Developers who are familiar with them could probably be able to config them to be awesome productive tools. 
+Developers who are familiar with them could probably be able to config them to be awesome productive tools.
 
-Don't wanna get involved in the battle, but for those who didn't even know them, just step away. 
+Don't wanna get involved in the battle, but for those who didn't even know them, just step away.
 
 ## Atom by Github
 

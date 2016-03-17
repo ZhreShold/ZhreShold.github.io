@@ -41,6 +41,12 @@ layout: blog-default
                     </li>
                     {% endif %}
                 </ul>
+                <br>
+                <br>
+                <br>
+                {% if page.disqus %}
+                {% include blog-disqus.html %}
+                {% endif %}
 
             </div>
         </div>

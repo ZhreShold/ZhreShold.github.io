@@ -1,0 +1,59 @@
+---
+layout:     post
+title:      "Zupply"
+subtitle:   "A light-weight portable C++ 11 library for Researches and Demos"
+date:       2015-07-18 19:15:23
+author:     "Joshua Z. Zhang"
+header-img: "img/post-bg-01.jpg"
+disqus:		yes
+---
+
+Zupply is a light-weight, cross-platform, easy to use C++11 library packed with fundamental functions/classes best for reaserches/small projects/demos.
+
+## Github repository
+
+[Zupply](https://github.com/ZhreShold/zupply)
+
+
+## Why Zupply
+- Tired of repetitive coding on reading/writing files? Logging messages? Loading configurations?
+- Feel desperate transferring code to another platform because you hard-coded in platform specific ways?
+- Reluctant to use Boost because it's too heavy-weight?
+- Hate setting up environments on a clean computer without any develop library which is required to be linked by many programs?
+- Just want to build a small demo, why bother libraries such as OpenCV just for reading/writing images?
+
+- ##### If you agree at least two of them, zupply will be the right tool.
+
+## Features
+- Zero dependency, only C++ 11 standard
+- Designed to be easily included in projects, no need to link
+- Pure and clean, everything encapsulated in namespace zz, almost no pollution if you don't expose the namespace ([explain](https://github.com/ZhreShold/zupply/wiki/Why-not-single-file-and-header-only%3F))
+- Targeting Linux/Windows/Mac OS X/Partial Unix based OSes, meanwhile providing unified experience coding on each platform
+
+## What's included
+- CLI [Argument-parser](https://github.com/ZhreShold/zupply/wiki/Argument-Parser)
+- INI/CFG [Configuration-file-parser](https://github.com/ZhreShold/zupply/wiki/Configuration-file-parser)
+- Easy to use [Timer and DateTime](https://github.com/ZhreShold/zupply/wiki/Date-and-Timer) classes to measure time and datetime
+- Fast sync/async [Logger](https://github.com/ZhreShold/zupply/wiki/Logger) with rich information and highly configurable
+- Cross-platform functions to handle [filesystems](https://github.com/ZhreShold/zupply/wiki/Filesystem). (create directory, check file existence, iterate through folder etc...)
+- Various [formatting](https://github.com/ZhreShold/zupply/wiki/Format) functions to (trim/split/replace/...) strings
+- Thread safe data structures for specific purposes
+- [ProgBar](https://github.com/ZhreShold/zupply/wiki/Progress-Bar) class that is designed for displaying progress bar inside consoles
+- [Image and ImageHdr](https://github.com/ZhreShold/zupply/wiki/Handle-image) class to do basic operations with image, for example, read(JPG, PNG, BMP, TGA, PSD, GIF, HDR, PIC)/write(JPG, PNG, TGA, BMP), crop, resize, pixel-wise access.
+- A lot more
+
+## What's under construction
+- Serializer/Deserializer: for dump/read objects to/from string directly, binary should also be supported
+
+## Documentation
+Full [documentation](http://zhreshold.github.io/zupply/) supplied.
+
+## Tutorials
+For tutorials, please check Zupply [Wiki](https://github.com/ZhreShold/zupply/wiki)!
+
+## License
+Zupply uses very permissive [MIT](https://opensource.org/licenses/MIT) license.
+
+## Credits
+- [UTF8-CPP](http://utfcpp.sourceforge.net/)
+- [STB-Image](https://github.com/nothings/stb)

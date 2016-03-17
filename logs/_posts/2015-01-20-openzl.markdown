@@ -1,0 +1,67 @@
+---
+layout:     post
+title:      "OpenZL"
+subtitle:   "An open-source library for computer vision"
+date:       2015-01-20 19:15:23
+author:     "Joshua Z. Zhang"
+header-img: "img/post-bg-03.jpg"
+disqus:		yes
+---
+
+A minimal cross-platform library for computer vision projects with ability to read/write/display images.
+
+## Github repository
+
+[OpenZL](https://github.com/ZhreShold/OpenZL)
+
+You may want to try [this](https://github.com/ZhreShold/zupply) new repository with more functions and more elegant way to start writing code.
+
+## Introduction
+
+OpenZL is a light weighted portable X-platform library packed with fundamental functions for simple Computer Vision projects.
+
+Wrapped in C++ as itself lacks image IO libraries, meanwhile provide more convenience over C.
+
+Full documentation in doc/html/
+
+## License
+MIT License.
+
+## Usage
+* Make sure you have c++11 support(vc11+, -std=c++11 in gcc 4.6+/clang3.3+)
+
+* include "core.hpp" for basic class
+
+* include "imgcodecs.h" for image read/write capabilities
+
+* include "highgui.h" for GUI related functions, e.g. imshow().
+
+* using namespace zl
+
+
+## Examples
+Check out [README](https://github.com/ZhreShold/OpenZL/blob/master/README.md).  
+
+
+## Capability
+
++ Get rid of bulky OpenCV library and messy configuration steps when you want start a very simple app.
+
++ Classes like Point, Rect, Mat are implemented either copied from OpenCV or rewritten to make it simple and clean.
+
++ Support cross-platform time() function.
+
++ Support cross-platform waitkey() function without pressing enter.
+
++ Support read image from BMP,JPG,PNG, TGA, PSD, GIF, HDR, PIC (thanks to Sean T. Barrett's stb_image library).
+
++ Support save image to BMP, JPG, PNG, TGA (thanks to Sean T. Barrett's stb_image_write library and Jon Olick's jpeg writer).
+
+## Acknowledgement
+
+[stb_image Library](https://github.com/nothings/stb) by Sean T. Barrett
+[JPEG_Writer](http://www.jonolick.com/code.html) by Jon Olick
+
++ Support image display (thanks to CImg library).
+
++ Support various drawing functions(line, rectangle, circle, polygon...).
