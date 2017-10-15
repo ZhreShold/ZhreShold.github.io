@@ -27,11 +27,13 @@ remarkable traits of MXNet.
 * The result is almost identical to the original version. However, due to different implementation details, the results might differ slightly.
 
 ### Demo results
+
 ![demo1](https://cloud.githubusercontent.com/assets/3307514/19171057/8e1a0cc4-8be0-11e6-9d8f-088c25353b40.png)
 ![demo2](https://cloud.githubusercontent.com/assets/3307514/19171063/91ec2792-8be0-11e6-983c-773bd6868fa8.png)
 ![demo3](https://cloud.githubusercontent.com/assets/3307514/19171086/a9346842-8be0-11e6-8011-c17716b22ad3.png)
 
 ### mAP
+
 |        Model          | Training data    | Test data |  mAP | Note |
 |:-----------------:|:----------------:|:---------:|:----:|:-----|
 | [VGG16_reduced 300x300](https://github.com/zhreshold/mxnet-ssd/releases/download/v0.5-beta/vgg16_ssd_300_voc0712_trainval.zip) | VOC07+12 trainval| VOC07 test| 77.8| fast |
@@ -40,6 +42,7 @@ remarkable traits of MXNet.
 | [Resnet-50 512x512](https://github.com/zhreshold/mxnet-ssd/releases/download/v0.6/resnet50_ssd_512_voc0712_trainval.zip) | VOC07+12 trainval| VOC07 test| 78.9 | fast |
 
 ### Speed
+
 |         Model         |   GPU            | CUDNN | Batch-size | FPS* |
 |:---------------------:|:----------------:|:-----:|:----------:|:----:|
 | VGG16_reduced 300x300 | TITAN X(Maxwell) | v5.1  |     16     | 95   |

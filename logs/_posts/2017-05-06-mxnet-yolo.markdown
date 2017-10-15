@@ -15,6 +15,7 @@ YOLO v2 is an object detection framework similar to SSD.
 [mxnet-yolo](https://github.com/zhreshold/mxnet-yolo)
 
 ### Disclaimer
+
 This is a re-implementation of original yolo v2 which is based on [darknet](https://github.com/pjreddie/darknet).
 The arXiv paper is available [here](https://arxiv.org/pdf/1612.08242.pdf).
 Still under development. 71 mAP on VOC2007 achieved so far.
