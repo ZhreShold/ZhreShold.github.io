@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      "MXNet-SSD"
+subtitle:   "MXNet port of SSD: Single Shot MultiBox Object Detector"
+date:       2016-10-01 19:15:23
+author:     "Joshua Z. Zhang"
+header-img: "img/post-bg-09.jpg"
+disqus:		yes
+---
+
+MXNet port of SSD: Single Shot MultiBox Object Detector.
+SSD is an unified framework for object detection with a single network.
+
+## Github repository
+
+[mxnet-ssd](https://github.com/zhreshold/mxnet-ssd)
+
+### Disclaimer
+This is a re-implementation of original SSD which is based on caffe. The official
+repository is available [here](https://github.com/weiliu89/caffe/tree/ssd).
+The arXiv paper is available [here](http://arxiv.org/abs/1512.02325).
+
+This example is intended for reproducing the nice detector while fully utilize the
+remarkable traits of MXNet.
+* The model is fully compatible with caffe version.
+* Model [converter](#convert-caffemodel) from caffe is available now!
+* The result is almost identical to the original version. However, due to different implementation details, the results might differ slightly.
+
+### Demo results
+![demo1](https://cloud.githubusercontent.com/assets/3307514/19171057/8e1a0cc4-8be0-11e6-9d8f-088c25353b40.png)
+![demo2](https://cloud.githubusercontent.com/assets/3307514/19171063/91ec2792-8be0-11e6-983c-773bd6868fa8.png)
+![demo3](https://cloud.githubusercontent.com/assets/3307514/19171086/a9346842-8be0-11e6-8011-c17716b22ad3.png)
+
+### mAP
+|        Model          | Training data    | Test data |  mAP | Note |
+|:-----------------:|:----------------:|:---------:|:----:|:-----|
+| [VGG16_reduced 300x300](https://github.com/zhreshold/mxnet-ssd/releases/download/v0.5-beta/vgg16_ssd_300_voc0712_trainval.zip) | VOC07+12 trainval| VOC07 test| 77.8| fast |
+| [VGG16_reduced 512x512](https://github.com/zhreshold/mxnet-ssd/releases/download/v0.5-beta/vgg16_ssd_512_voc0712_trainval.zip) | VOC07+12 trainval | VOC07 test| 79.9| slow |
+| [Inception-v3 512x512](https://github.com/zhreshold/mxnet-ssd/releases/download/v0.6/inceptionv3_ssd_512_voc0712_trainval.zip) | VOC07+12 trainval| VOC07 test| 78.9 | fastest |
+| [Resnet-50 512x512](https://github.com/zhreshold/mxnet-ssd/releases/download/v0.6/resnet50_ssd_512_voc0712_trainval.zip) | VOC07+12 trainval| VOC07 test| 78.9 | fast |
+
+### Speed
+|         Model         |   GPU            | CUDNN | Batch-size | FPS* |
+|:---------------------:|:----------------:|:-----:|:----------:|:----:|
+| VGG16_reduced 300x300 | TITAN X(Maxwell) | v5.1  |     16     | 95   |
+| VGG16_reduced 300x300 | TITAN X(Maxwell) | v5.1  |     8      | 95   |
+| VGG16_reduced 300x300 | TITAN X(Maxwell) | v5.1  |     1      | 64   |
+| VGG16_reduced 300x300 | TITAN X(Maxwell) |  N/A  |     8      | 36   |
+| VGG16_reduced 300x300 | TITAN X(Maxwell) |  N/A  |     1      | 28   |
