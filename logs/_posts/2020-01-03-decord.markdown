@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "Decord"
+subtitle:   "Decord: An efficient video loader for deep learning with smart shuffling that's super easy to digest"
+date:       2020-01-03 23:11:09
+author:     "Joshua Z. Zhang"
+header-img: "img/post-bg-12.jpg"
+disqus:		yes
+---
+
+`Decord` is a reverse procedure of `Record`. It provides convenient video slicing methods based on a thin wrapper on top of hardware accelerated video decoders, e.g.
+
+- FFMPEG/LibAV
+- Nvidia Codecs
+- Intel Codecs
+
+`Decord` was designed to handle awkward video shuffling experience in order to provide smooth experiences similar to random image loader for deep learning.
+
+No more fights with seeking in large video, simple use `decord.VideoReader` to access any frame just like a `list`
+
+![example](https://user-images.githubusercontent.com/3307514/74906118-e27e8980-5364-11ea-8d67-ef04f4bce47c.PNG)
+
+More details in [github](https://github.com/dmlc/decord)!

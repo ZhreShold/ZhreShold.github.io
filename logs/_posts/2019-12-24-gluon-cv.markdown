@@ -1,0 +1,32 @@
+---
+layout:     post
+title:      "GluonCV"
+subtitle:   "GluonCV Toolkit: The one stop store for deep computer vision models"
+date:       2019-12-24 17:30:06
+author:     "Joshua Z. Zhang"
+header-img: "img/post-bg-11.jpg"
+disqus:		yes
+---
+
+GluonCV provides implementations of the state-of-the-art (SOTA) deep learning models in computer vision.
+
+It is designed for engineers, researchers, and students to fast prototype products and research ideas based on these models. This toolkit offers four main features:
+
+- Training scripts to reproduce SOTA results reported in research papers
+- A large number of pre-trained models
+- Carefully designed APIs that greatly reduce the implementation complexity
+- Community supports
+
+## Github repository
+
+[gluon-cv](https://github.com/dmlc/gluon-cv)
+
+## Website
+
+[website](https://gluon-cv.mxnet.io)
+
+### Demo
+
+![demo1](https://github.com/dmlc/gluon-cv/blob/master/docs/_static/short_demo.gif?raw=true)
+
+Check the HD video at [Youtube](https://www.youtube.com/watch?v=nfpouVAzXt0) or [Bilibili](https://www.bilibili.com/video/av55619231).
